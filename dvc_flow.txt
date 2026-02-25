@@ -23,3 +23,6 @@ git log --oneline      #To fetch any id to rollback if required for dvc
 git checkout <hash>    #To rollback to a particular version that we have fetched from the above code
 git checkout master    #To return back to the latest and last commited version
 dvc pull               #To fetch that corresponding version of data
+
+
+Make sure to focus on and track the data.dvc file, because thats the file that has to get tracked by git so that we can rollback to whatever required version we need of the data.
