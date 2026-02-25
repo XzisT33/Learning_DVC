@@ -3,7 +3,7 @@
 3. Do a git add-commit-push before initializing dvc.
 # pip install dvc
 4. Now we do "dvc init" (creates .dvcignore, .dvc)
-5. Now do "mkdir S3" (creates a new S3 directory, here instead of using locally we can also use url of our remote s3 AWS as well.)
+5. Now do "mkdir local_S3" (creates a new local_S3 directory, here instead of using locally we can also use url of our remote S3 AWS as well.) (You can also do this before step 4)
 6. Now we do "dvc remote add -d myremote S3"
 7. Next "dvc add data/"
    # The above step will throw an error because the data folder is already tracked by git. 
